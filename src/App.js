@@ -51,7 +51,7 @@ return<>
             <Route path='/dashboard' element={<Dashboard data={{data,users,setUsers}}/>}/> 
             <Route path='/add-user'  element={<Adduser data={{users,setUsers}}/>}/>
             <Route path='/edit-user/:id'  element={<EditUser data={{users,setUsers}}/>}/>
-            <Route path='*'  element={<Navigate to ='/add-user'/>}/>
+            <Route path='*'  element={<Navigate to ='/dashboard'/>}/>
        
         </Routes>
 
